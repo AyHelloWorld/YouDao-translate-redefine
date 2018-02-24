@@ -1,0 +1,22 @@
+{
+   "background": {
+      "scripts": [
+        "background.js"
+      ]
+    },
+   "browser_action": {
+      "default_icon": "fanyi2-48x48.png"
+   },
+   "default_locale": "zh_CN",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "fanyi2-128x128.png",
+      "48": "fanyi2-48x48.png"
+   },
+   "name": "__MSG_appName__",
+   "permissions": [ "http://*/*", "https://*/*", "tabs" ],
+   "web_accessible_resources": ["all-packed-utf-8.js"],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "manifest_version": 2,
+   "version": "2.0"
+}
